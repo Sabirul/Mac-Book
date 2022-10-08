@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac-Book</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <section class="conatiner">
+        <div class="row m-2">
+            <div class="col">
+                <img class="img" src="images/mac.png" alt="">
+            </div>
+            <div class="col text-start me-5 pt-5">
+                <div>
+                    <h1 class="fs-2">Customize your blue 24-inch iMac with Apple M1 chip.</h1>
+                    <p class="fs-6">Apple Mi chip with 8-core CPU with 4performance and 4 effeciency core, 7-core GPU,
+                        and 16-core Neural Engine 8GB unified memry 256GB SSD storage Two Thunderboit / USB 4 ports
+                        Magic Mouse Magic Keyboard - Us English</p>
+                </div>
+
+                <div>
+                    <h1 class="fs-4 pt-4">Memory</h1>
+                    <div>
+                        <button id="8GB-memory" class="btn">8GB Unified Memory</button>
+                        <button id="16GB-memory" class="btn">16GB Unified Memory</button>
+                    </div>
+
+                </div>
+
+                <div class="pt-4">
+                    <h1 class="fs-4">Storage</h1>
+                    <div>
+                        <button id="256GB-SSD" class="btn">256GB SSD Storage</button>
+                        <button id="512GB-SSD" class="btn">512GB SSD Storage</button>
+                        <button id="1TB-SSD" class="btn">1TB SSD Storage</button>
+                    </div>
+
+                </div>
+
+                <div class="pt-4">
+                    <h1 class="fs-4">Choose your delivery options.</h1>
+                    <div>
+                        <button id="free-delivery" class="btn">Friday, AUG 25 FREE Primary Delivery</button>
+                        <button id="urgent-delivery" class="btn">Friday, AUG 21 Delivery Charge $20</button>
+                    </div>
+
+                </div>
+
+                <div class="row pt-4">
+                    <div class="col">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Best Price</th>
+                                    <th>$1299</th>
+                                </tr>
+                                <tr>
+                                    <th>Extar Memory Cost</th>
+                                    <th>$ <span id="memory-cost">0</span></th>
+                                </tr>
+                                <tr>
+                                    <th>Extar Storage Cost</th>
+                                    <th>$ <span id ='storage-cost'>0</span></th>
+                                </tr>
+                                <tr>
+                                    <th>Delivery Charge</th>
+                                    <th>$ <span id="delivery-cost">0</span> </th>
+                                </tr>
+                                <tbody class="table-group-divider"></tbody>
+                                <tr>
+                                    <th>Total Price</th>
+                                    <th>$ <span id="total-cost">1299</span></th>
+                                </tr>
+                            </thead>
+                            
+                        </table>
+                        <h1 class="fs-5">Add Pomo Code</h1>
+                        <tr>
+                            <th><input id="pomo-code" type="text" placeholder="msi-sumon"></th>
+                            <th><button id="pomo-btn" class="bg-danger btn">Apply</button></th>
+                        </tr>
+                    </div>
+                    <div class="col"></div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+    <h1 class="text-center py-4">Total: $ <span id="pomo-save">1299</span></h1>
+
+    <script src="mac-book.js"></script>
+
+</body>
+
+</html>

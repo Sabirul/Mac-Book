@@ -1,0 +1,11 @@
+.img{
+    width: 600px;
+    padding: 50px 40px 0 150px;
+}
+.btn{
+    border: 1px solid gray;
+}
+.btn:hover{
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
